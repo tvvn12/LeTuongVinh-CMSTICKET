@@ -1,0 +1,17 @@
+.ant-menu-inline .ant-menu-selected::after,
+.ant-menu-inline .ant-menu-item-selected::after {
+  content: none !important;
+}
+
+.ant-menu-item-selected {
+  color: white !important;
+  background-color: #ffb800 !important;
+}
+
+/* .ant-menu-inline.ant-menu-root .ant-menu-item, .ant-menu-inline.ant-menu-root .ant-menu-submenu-title{
+    color: white;
+} */
+
+ .ant-menu-item-selected svg path{
+    fill: #fff;
+}
